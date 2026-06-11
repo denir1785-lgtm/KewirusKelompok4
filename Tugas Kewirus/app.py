@@ -12,4 +12,4 @@ html_path = os.path.join(current_dir, "index.html")
 with open(html_path, "r", encoding="utf-8") as f:
     html_data = f.read()
 
-components.html(html_data, height=1000, scrolling=True)
+components.html(html_data, height=2000, scrolling=True)
